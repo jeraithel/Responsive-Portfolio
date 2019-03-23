@@ -1,0 +1,185 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/119/257/non_2x/gray-paper-texture-background-vector.jpg);
+    background-size: cover;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#background-up {
+    background-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+#background-down {
+    background-color: rgb(44, 42, 42);
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color:teal;
+    height: 70px;
+}
+header {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+    height: 64px;
+}
+
+#logo {
+    background-color: teal;
+    color: white;
+    padding: 15px 30px;
+    float: left;
+    font-size: 30px;
+    text-decoration: unset;
+}
+
+#menu {
+    float: right;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#main {
+    margin: auto;
+    margin-top: 20px;
+    width: 960px;
+    clear: both;
+}
+
+#container {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+
+#container_portfolio {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    height: 450px;
+}
+
+h2 {
+    padding: 15px 15px 15px 0px;
+    color: teal;
+    border-bottom: solid;
+    margin: 30px;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+.project {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    margin: 0px 0px 30px 0px;
+}
+
+.pic {
+    width: 200px;
+    height: 150px;
+    padding: 0px 30px;
+}
+
+.bottom-centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    top: 70%;
+    background-color: teal;
+    transform: translate(15%, 0%);
+}
+
+#me {
+    width: 200px;
+    float: left;
+    padding: 10px 10px 10px 25px;
+}
+
+#menu a {
+    text-decoration: unset;
+    padding-left: 15px;
+}
+
+p {
+    padding: 0px 30px 30px 30px;
+    line-height: 2em;
+}
+
+h4 {
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+#contact_form {
+    width: 960px;
+    margin: 30px;
+}
+
+input, textarea {
+    width: 900px;
+    margin: 3px 0px 10px 0px;
+}
+
+#button {
+    background-color: teal;
+    width: 100px;
+    padding: 15px;
+    color: white;
+    margin: 0px 0px 15px 0px; 
+}
+
+#blank {
+    height: 75px;
+}
+
+
+@media screen and (max-width: 980px) {
+    #container, #main, header, #container_portfolio {
+      width: 750px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 700px;
+    }
+    /* #logo {
+        background-color: green;
+    } */
+}  
+
+@media screen and (max-width: 768px) {
+    #container, #main, header, #container_portfolio {
+        width: 600px;
+        margin: auto;
+      }
+      input, textarea {
+        width: 550px;
+      }
+      /* #logo {
+          background-color: pink;
+      } */
+}  
+
+@media screen and (max-width: 640px) {
+    #container, #main, header, #container_portfolio {
+        width: 550px;
+        margin: auto;
+      }
+      input, textarea {
+        width: 500px;
+      }
+      #logo {
+        margin: auto;
+      }
+}  
